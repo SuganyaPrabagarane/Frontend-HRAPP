@@ -11,7 +11,7 @@ import EmployeeDetail from './pages/Persons/EmployeeDetail';
 function App() {
   const [employeeData, setEmployeeData] = useState([]);
   const {get, patch, remove} = useAxios();
-  const apiUrl = `${process.env.REACT_APP_API_URL}/employees`;
+  const apiUrl = 'https://backend-hrapp.onrender.com/employees';
   
     useEffect(() =>{
       const getData = async () => {
