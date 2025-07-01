@@ -3,20 +3,20 @@ import React from 'react';
 const AnimalEmoji = ({ animal}) => {
 
   const animalEmojis = [
-    { name: 'Rabbit', emoji: '/public/icons/rabbit.png' },
-    { name: 'Bee', emoji: '/public/icons/bee.png' },
-    { name: 'Dog', emoji: '/public/icons/dog.png' },
-    { name: 'Deer', emoji: '/public/icons/deer.png' },
-    { name: 'Elephant', emoji: '/public/icons/elephant.png' },
-    { name: 'Fox', emoji: '/public/icons/fox.png' },
-    { name: 'JellyFish', emoji: '/public/icons/jellyfish.png' },
-    { name: 'Koala', emoji: '/public/icons/koala.png' },
-    { name: 'Lion', emoji: '/public/icons/lion.png' },
-    { name: 'Owl', emoji: '/public/icons/owl.png' },
-    { name: 'Panda', emoji: '/public/icons/panda.png' },
-    { name: 'Squirrel', emoji: '/public/icons/squirrel.png' },
-    { name: 'Turtle', emoji: '/public/icons/turtle.png' },
-    { name: 'Whale', emoji: '/public/icons/whale.png' }
+    { name: 'Rabbit', emoji: '/icons/rabbit.png' },
+    { name: 'Bee', emoji: '/icons/bee.png' },
+    { name: 'Dog', emoji: '/icons/dog.png' },
+    { name: 'Deer', emoji: '/icons/deer.png' },
+    { name: 'Elephant', emoji: '/icons/elephant.png' },
+    { name: 'Fox', emoji: '/icons/fox.png' },
+    { name: 'JellyFish', emoji: '/icons/jellyfish.png' },
+    { name: 'Koala', emoji: '/icons/koala.png' },
+    { name: 'Lion', emoji: '/icons/lion.png' },
+    { name: 'Owl', emoji: '/icons/owl.png' },
+    { name: 'Panda', emoji: '/icons/panda.png' },
+    { name: 'Squirrel', emoji: '/icons/squirrel.png' },
+    { name: 'Turtle', emoji: '/icons/turtle.png' },
+    { name: 'Whale', emoji: '/icons/whale.png' }
   ];
 
    const matchedEmoji = animalEmojis.find(a => a.name.toLowerCase() === animal.toLowerCase());

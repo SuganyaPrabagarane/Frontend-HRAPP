@@ -168,6 +168,7 @@ const EmployeeDetail = ({ handleDelete, handleEdit, apiUrl }) => {
                 </>
                 ) : (
                 <>
+                  <p><strong>ID:</strong> {employee.id}</p>
                   <p><strong>Title:</strong> {employee.title}</p>
                   <p><strong>Salary:</strong> {employee.salary}</p>
                   <p><strong>Location:</strong> {employee.location}</p>
