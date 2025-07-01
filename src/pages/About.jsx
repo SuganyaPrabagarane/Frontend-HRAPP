@@ -4,7 +4,7 @@ const About = () => {
       <main className={styles.container}>
         <div className={styles.image}>
             <img
-                src="/icons/about-image.avif"  
+                src="/icons/About-image.avif"  
                 alt="Team working together"
                 className={styles.aboutImage}
             />

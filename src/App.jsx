@@ -12,6 +12,8 @@ function App() {
   const [employeeData, setEmployeeData] = useState([]);
   const {get, patch, remove} = useAxios();
   const apiUrl = `${process.env.REACT_APP_API_URL}/employees`;
+
+  console.log(process.env.REACT_APP_API_URL)
   
     useEffect(() =>{
       const getData = async () => {
