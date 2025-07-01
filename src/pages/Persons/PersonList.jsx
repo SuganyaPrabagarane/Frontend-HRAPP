@@ -66,7 +66,7 @@ const PersonList = ({employeeData, onHandleEditFields}) =>{
                 {filteredEmployee.length > 0 ? (
                     filteredEmployee.map(employee => (
                     <PersonCard key={employee.id} {...employee} 
-                        skills={employee.skills.join(', ')} 
+                        skills={(employee.skills || []).join(', ')} 
                         OnHandleSeeMore = {()=> handleSeeMore(employee.id)}
                     />
 
