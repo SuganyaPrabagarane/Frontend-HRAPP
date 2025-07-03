@@ -6,7 +6,6 @@ import styles from './PersonList.module.css';
 const PersonList = ({employeeData, onHandleEditFields}) =>{
     const [searchValue, setSearchValue] = useState('');
     const [filter, setFilter] = useState('all');
-    const [loading, setLoading] = useState(true);
     const navigate = useNavigate();
 
     const handleSeeMore =(id) =>{
@@ -16,10 +15,6 @@ const PersonList = ({employeeData, onHandleEditFields}) =>{
     const handleSearch =(event) =>{
         setSearchValue(event.target.value);
     }
-
-    const simulateLoading = (callback) =>{
-        setTimeout(callback, 2000);
-    };
 
     const filteredEmployee = employeeData.filter(employee =>{
         const searchByText = searchValue.toLowerCase();

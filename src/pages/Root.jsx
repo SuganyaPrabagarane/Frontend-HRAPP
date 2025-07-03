@@ -9,7 +9,7 @@ const Persons = () =>{
         <main>
         <Outlet />
         </main>
-        <Footer year='2025K'/>
+        <Footer year='HBC 2025K'/>
         </>
     )
 }

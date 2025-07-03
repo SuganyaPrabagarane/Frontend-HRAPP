@@ -5,10 +5,10 @@ const AnimalEmoji = ({ animal}) => {
   const animalEmojis = [
     { name: 'Rabbit', emoji: '/icons/rabbit.png' },
     { name: 'Bee', emoji: '/icons/bee.png' },
+    { name: 'Crab', emoji: '/icons/crab.png' },
     { name: 'Dog', emoji: '/icons/dog.png' },
     { name: 'Deer', emoji: '/icons/deer.png' },
     { name: 'Elephant', emoji: '/icons/elephant.png' },
-    { name: 'Fox', emoji: '/icons/fox.png' },
     { name: 'JellyFish', emoji: '/icons/jellyfish.png' },
     { name: 'Koala', emoji: '/icons/koala.png' },
     { name: 'Lion', emoji: '/icons/lion.png' },

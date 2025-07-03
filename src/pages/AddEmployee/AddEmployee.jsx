@@ -94,7 +94,7 @@ const AddEmployee = ({onAddEmployee,apiUrl}) =>{
                         <option value="Dog">Dog</option>
                         <option value="Deer">Deer</option>
                         <option value="Elephant">Elephant</option>
-                        <option value="Fox">Fox</option>
+                        <option value="Crab">Crab</option>
                         <option value="JellyFish">JellyFish</option>
                         <option value="Koala">Koala</option>
                         <option value="Lion">Lion</option>

@@ -1,11 +1,12 @@
 import styles from './About.module.css'
+
 const About = () => {
     return (
       <main className={styles.container}>
         <div className={styles.image}>
             <img
-                src="/icons/About-image.avif"  
-                alt="Team working together"
+                src="/image/About-image.avif"  
+                alt="About Image"
                 className={styles.aboutImage}
             />
         </div>
