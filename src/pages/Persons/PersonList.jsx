@@ -35,7 +35,6 @@ const PersonList = ({employeeData, onHandleEditFields}) =>{
             <h1>Employee Details</h1>
             <div className={styles.searchAndFilter}>
                 <div className={styles.search}>
-                    <label htmlFor='search' >Search</label>
                     <input className={styles.searchInput}
                         type='text' 
                         id='search' 
@@ -46,9 +45,8 @@ const PersonList = ({employeeData, onHandleEditFields}) =>{
                     />
                 </div>
                 <div className={styles.filter}>
-                    <label htmlFor='filter-user'>Filter by Title</label>
                     <select value={filter} onChange={(e) =>setFilter(e.target.value)}>
-                        <option value = 'all'>All</option>
+                        <option value = 'all'>Filter By Title</option>
                             {/* It removes the duplicate title */}
                             {[...new Set(employeeData.map(emp => emp.title))].map(title => (
                                 <option key={title} value={title}>{title}</option>
