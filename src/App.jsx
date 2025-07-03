@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import PersonList from './pages/Persons/PersonList';
-import { BrowserRouter, Routes, Route} from "react-router";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Root from './pages/Root';
 import About from './pages/About';
 import AddEmployee from './pages/AddEmployee/AddEmployee';
