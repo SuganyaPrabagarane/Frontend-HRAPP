@@ -29,7 +29,7 @@ const PersonList = ({employeeData, onHandleEditFields}) =>{
 
         return (search && filtered);
     });
-    
+
     return(
         <>
             <h1>Employee Details</h1>
